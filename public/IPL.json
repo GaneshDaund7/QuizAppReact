@@ -1,0 +1,112 @@
+[
+    {
+        "id": "01",
+        "question" : "Which IPL team won most number of tropies?",
+        "options": [
+            "MI",
+            "RCB",
+            "CSK",
+            "None of the above."
+        ],
+        "answer": "MI"
+    },
+    {
+        "id": "02",
+        "question" : "Which IPL Team has lowest Score in IPL",
+        "options": [
+            "RCB",
+            "MI",
+            "PKBS",
+            "KKR"
+        ],
+        "answer": "RCB"
+    },
+    {
+        "id": "03",
+        "question" : "Who is Captain of MI?",
+        "options": [
+            "MSD",
+            "Virat Kolhi",
+            "Shikhar Dhawan",
+            "Rohit Sharma"
+        ],
+        "answer": "Rohit Sharma"
+    },
+    {
+        "id": "04",
+        "question" : "Which player took the only hat trick of IPL 2022??",
+        "options": [
+            "Harshal Patel",
+            "Yuzvendra Chahal",
+            "Kuldeep Yadav",
+            "Kuldeep Sen"
+        ],
+        "answer": "Yuzvendra Chahal"
+    },
+    {
+        "id": "05",
+        "question" : "Who was the most expensive foreign player in IPL 2022 auction?",
+        "options": [
+            "Liam Livingstone",
+            "Pat Cummins",
+            "Jofra Archer",
+            "Shimron Hetmyer"
+        ],
+        "answer": "Liam Livingstone"
+    },
+    {
+        "id": "06",
+        "question" : "Who was the Man of the Match in the IPL 2022 final?",
+        "options": [
+            "Rashid Khan",
+            "Shubman Gill",
+            "Hardik Pandya",
+            "David Miller"
+        ],
+        "answer": "Hardik Pandya"
+    },
+    {
+        "id": "07",
+        "question" : "Who Won the IPL 2022?",
+        "options": [
+            "GT",
+            "CSK",
+            "MI",
+            "RCB"
+        ],
+        "answer": "GT"
+    },
+    {
+        "id": "08",
+        "question" : "Who recorded the highest individual score in IPL?",
+        "options": [
+            "KL Rahul",
+            "Chris Gayle",
+            "Rohit Sharma",
+            "Virat Kolhi"
+        ],
+        "answer": "Chris Gayle"
+    },
+    {
+        "id": "09",
+        "question" : " Which two teams lost the most games in IPL 2022?",
+        "options": [
+            "MI,CSK",
+            "GT,RR",
+            "SRH,PKBS",
+            "None of the above."
+        ],
+        "answer": "MI,CSK"
+    },
+    {
+        "id": "10",
+        "question" : "Who is RCB's Captain curently",
+        "options": [
+            "Virat Kolhi",
+            "Faf",
+            "Harshal Patel",
+            "None of the above."
+        ],
+        "answer": "Faf"
+    }
+]

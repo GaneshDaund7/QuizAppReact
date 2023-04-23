@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Start from './components/Start';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LoginForm from './components/LoginForm';
+import CardGrid from './components/home';
+
 
 function App() {
   // All Quizs, Current Question, Index of Current Question, Answer, Selected Answer, Total Marks
@@ -19,7 +23,8 @@ function App() {
 
   // Load JSON Data
   useEffect(() => {
-    fetch('quiz.json')
+    
+    fetch('IPL.json')
       .then(res => res.json())
       .then(data => setQuizs(data))
   }, []);
@@ -86,33 +91,34 @@ function App() {
   }
 
   return (
-    <>
-      {/* Welcome Page */}
-      <Start
-        startQuiz={startQuiz}
-        showStart={showStart}
-      />
-
-      {/* Quiz Page */}
-      <Quiz
-        showQuiz={showQuiz}
-        question={question}
-        quizs={quizs}
-        checkAnswer={checkAnswer}
-        correctAnswer={correctAnswer}
-        selectedAnswer={selectedAnswer}
-        questionIndex={questionIndex}
-        nextQuestion={nextQuestion}
-        showTheResult={showTheResult}
-      />
-
-      {/* Result Page */}
-      <Result
-        showResult={showResult}
-        quizs={quizs}
-        marks={marks}
-        startOver={startOver} />
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<LoginForm />} />
+      <Route path="/home" element={< CardGrid/>} />
+      <Route path="/quiz" element={
+        <>
+          <Start startQuiz={startQuiz} showStart={showStart} />
+          <Quiz
+            showQuiz={showQuiz}
+            question={question}
+            quizs={quizs}
+            checkAnswer={checkAnswer}
+            correctAnswer={correctAnswer}
+            selectedAnswer={selectedAnswer}
+            questionIndex={questionIndex}
+            nextQuestion={nextQuestion}
+            showTheResult={showTheResult}
+          />
+          <Result
+            showResult={showResult}
+            quizs={quizs}
+            marks={marks}
+            startOver={startOver}
+          />
+        </>
+      } />
+    </Routes>
+  </BrowserRouter>
   );
 }
 
