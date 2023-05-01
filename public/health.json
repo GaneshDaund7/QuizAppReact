@@ -1,0 +1,103 @@
+[  {    "id": "01",    "question": "What is the recommended daily water intake for an average adult?",    "options": [      "1 liter",      "2 liters",      "3 liters",      "4 liters"    ],
+    "answer": "2 liters"
+  },
+  {
+    "id": "02",
+    "question": "What is the normal resting heart rate for adults?",
+    "options": [
+      "60-80 bpm",
+      "100-120 bpm",
+      "130-150 bpm",
+      "160-180 bpm"
+    ],
+    "answer": "60-80 bpm"
+  },
+  {
+    "id": "03",
+    "question": "What is the recommended daily intake of vegetables for an adult?",
+    "options": [
+      "1 serving",
+      "2 servings",
+      "3 servings",
+      "4 servings"
+    ],
+    "answer": "3 servings"
+  },
+  {
+    "id": "04",
+    "question": "What is the normal range for blood pressure in adults?",
+    "options": [
+      "120/80 mmHg",
+      "140/90 mmHg",
+      "160/100 mmHg",
+      "180/110 mmHg"
+    ],
+    "answer": "120/80 mmHg"
+  },
+  {
+    "id": "05",
+    "question": "What is the recommended daily intake of fiber for an adult?",
+    "options": [
+      "10-15 grams",
+      "20-25 grams",
+      "30-35 grams",
+      "40-45 grams"
+    ],
+    "answer": "20-25 grams"
+  },
+  {
+    "id": "06",
+    "question": "What is the recommended daily intake of calcium for an adult?",
+    "options": [
+      "500-800 mg",
+      "1000-1200 mg",
+      "1500-2000 mg",
+      "2500-3000 mg"
+    ],
+    "answer": "1000-1200 mg"
+  },
+  {
+    "id": "07",
+    "question": "What is the recommended daily intake of vitamin C for an adult?",
+    "options": [
+      "10-30 mg",
+      "50-100 mg",
+      "150-200 mg",
+      "250-500 mg"
+    ],
+    "answer": "50-100 mg"
+  },
+  {
+    "id": "08",
+    "question": "What is the recommended amount of sleep for adults?",
+    "options": [
+      "4-6 hours",
+      "6-8 hours",
+      "8-10 hours",
+      "10-12 hours"
+    ],
+    "answer": "6-8 hours"
+  },
+  {
+    "id": "09",
+    "question": "What is the normal range for blood glucose levels in adults?",
+    "options": [
+      "70-100 mg/dL",
+      "100-150 mg/dL",
+      "150-200 mg/dL",
+      "200-250 mg/dL"
+    ],
+    "answer": "70-100 mg/dL"
+  },
+  {
+    "id": "10",
+    "question": "What is the recommended daily intake of iron for an adult?",
+    "options": [
+      "5-10 mg",
+      "10-15 mg",
+      "15-20 mg",
+      "20-25 mg"
+    ],
+    "answer": "15-20 mg"
+  }
+]

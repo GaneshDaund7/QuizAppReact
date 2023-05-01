@@ -9,6 +9,10 @@ import CardGrid from './components/home';
 
 function App() {
   // All Quizs, Current Question, Index of Current Question, Answer, Selected Answer, Total Marks
+
+  const jsonFile = new URLSearchParams(window.location.search).get('jsonFile');
+  console.log(jsonFile);
+
   const [quizs, setQuizs] = useState([]);
   const [question, setQuesion] = useState({});
   const [questionIndex, setQuestionIndex] = useState(0);
@@ -21,14 +25,15 @@ function App() {
   const [showQuiz, setShowQuiz] = useState(false);
   const [showResult, setShowResult] = useState(false);
 
-  // Load JSON Data
   useEffect(() => {
     
-    fetch('IPL.json')
-      .then(res => res.json())
-      .then(data => setQuizs(data))
-  }, []);
-
+    if (jsonFile) {
+      fetch(process.env.PUBLIC_URL + '/' + jsonFile)
+        .then(res => res.json())
+        .then(data => setQuizs(data))
+        .catch(error => console.error(`Failed to fetch JSON data from ${jsonFile}:`, error));
+    }
+  }, [jsonFile]);
   // Set a Single Question
   useEffect(() => {
     if (quizs.length > questionIndex) {

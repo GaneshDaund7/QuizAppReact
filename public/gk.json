@@ -1,0 +1,105 @@
+[  {    "id": "01",
+      "question": "What is the capital city of France?", 
+      "options": [      "London",      "Paris",      "Madrid",      "Berlin"    ],
+    "answer": "Paris"
+  },
+  {
+    "id": "02",
+    "question": "Who wrote the famous novel 'To Kill a Mockingbird'?",
+    "options": [
+      "Harper Lee",
+      "J.D. Salinger",
+      "F. Scott Fitzgerald",
+      "Ernest Hemingway"
+    ],
+    "answer": "Harper Lee"
+  },
+  {
+    "id": "03",
+    "question": "What is the smallest continent in the world?",
+    "options": [
+      "Asia",
+      "Europe",
+      "Australia",
+      "Africa"
+    ],
+    "answer": "Australia"
+  },
+  {
+    "id": "04",
+    "question": "Which planet in our solar system is known as the 'Red Planet'?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Neptune"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": "05",
+    "question": "Which is the largest bird in the world?",
+    "options": [
+      "Ostrich",
+      "Eagle",
+      "Vulture",
+      "Pelican"
+    ],
+    "answer": "Ostrich"
+  },
+  {
+    "id": "06",
+    "question": "Which country is the largest producer of coffee in the world?",
+    "options": [
+      "Brazil",
+      "Colombia",
+      "Vietnam",
+      "Ethiopia"
+    ],
+    "answer": "Brazil"
+  },
+  {
+    "id": "07",
+    "question": "What is the highest mountain in North America?",
+    "options": [
+      "Mount Everest",
+      "Mount Kilimanjaro",
+      "Denali (Mount McKinley)",
+      "Mount Aconcagua"
+    ],
+    "answer": "Denali (Mount McKinley)"
+  },
+  {
+    "id": "08",
+    "question": "What is the longest river in Africa?",
+    "options": [
+      "Nile River",
+      "Congo River",
+      "Zambezi River",
+      "Niger River"
+    ],
+    "answer": "Nile River"
+  },
+  {
+    "id": "09",
+    "question": "What is the smallest country in the world by land area?",
+    "options": [
+      "Monaco",
+      "Nauru",
+      "San Marino",
+      "Vatican City"
+    ],
+    "answer": "Vatican City"
+  },
+  {
+    "id": "10",
+    "question": "Which is the world's largest desert?",
+    "options": [
+      "Sahara Desert",
+      "Arabian Desert",
+      "Gobi Desert",
+      "Kalahari Desert"
+    ],
+    "answer": "Sahara Desert"
+  }
+]

@@ -1,0 +1,101 @@
+[
+    {
+      "id": "01",
+      "question": "What is Python?",
+      "options": [
+        "A type of snake",
+        "A programming language",
+        "A computer hardware",
+        "A software for graphic designing"
+      ],
+      "answer": "A programming language"
+    },
+    {
+      "id": "02",
+      "question": "Who created Python?",
+      "options": [
+        "Guido van Rossum",
+        "Bill Gates",
+        "Steve Jobs",
+        "Mark Zuckerberg"
+      ],
+      "answer": "Guido van Rossum"
+    },
+    {
+      "id": "03",
+      "question": "What is the latest version of Python?",
+      "options": [
+        "Python 2.7",
+        "Python 3.5",
+        "Python 3.9",
+        "Python 4.0"
+      ],
+      "answer": "Python 3.9"
+    },
+    {
+      "id": "04",
+      "question": "What is the function used to print in Python?",
+      "options": [
+        "output()",
+        "echo()",
+        "print()",
+        "display()"
+      ],
+      "answer": "print()"
+    },
+    {
+      "id": "05",
+      "question": "What is a variable in Python?",
+      "options": [
+        "A reserved word that identifies an action",
+        "A container for storing data values",
+        "A function that performs a specific task",
+        "A data type that is used to store text"
+      ],
+      "answer": "A container for storing data values"
+    },
+    {
+      "id": "06",
+      "question": "What is a function in Python?",
+      "options": [
+        "A reserved word that identifies an action",
+        "A container for storing data values",
+        "A set of instructions that performs a specific task",
+        "A data type that is used to store text"
+      ],
+      "answer": "A set of instructions that performs a specific task"
+    },
+    {
+      "id": "07",
+      "question": "What is a module in Python?",
+      "options": [
+        "A reserved word that identifies an action",
+        "A container for storing data values",
+        "A set of instructions that performs a specific task",
+        "A file containing a set of functions to include in your application"
+      ],
+      "answer": "A file containing a set of functions to include in your application"
+    },
+    {
+      "id": "08",
+      "question": "What is a loop in Python?",
+      "options": [
+        "A reserved word that identifies an action",
+        "A container for storing data values",
+        "A set of instructions that performs a specific task",
+        "A statement that allows you to execute a block of code repeatedly"
+      ],
+      "answer": "A statement that allows you to execute a block of code repeatedly"
+    },
+    {
+      "id": "09",
+      "question": "What is a dictionary in Python?",
+      "options": [
+        "A reserved word that identifies an action",
+        "A container for storing data values",
+        "A set of instructions that performs a specific task",
+        "A collection of key-value pairs"
+      ],
+      "answer": "A collection of key-value pairs"
+    }
+]

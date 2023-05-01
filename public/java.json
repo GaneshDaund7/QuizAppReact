@@ -1,0 +1,90 @@
+[
+    {
+        "id": "01",
+        "question": "What is Java?",
+        "options": [
+            "A programming language",
+            "A type of coffee",
+            "A type of operating system",
+            "A type of server"
+        ],
+        "answer": "A programming language"
+    },
+    {
+        "id": "02",
+        "question": "What is the latest version of Java?",
+        "options": [
+            "Java 8",
+            "Java 10",
+            "Java 11",
+            "Java 12"
+        ],
+        "answer": "Java 12"
+    },
+    {
+        "id": "03",
+        "question": "What is the difference between JDK and JRE?",
+        "options": [
+            "JDK is a subset of JRE",
+            "JRE is a subset of JDK",
+            "JDK contains the JRE along with development tools",
+            "JRE contains the JDK along with development tools"
+        ],
+        "answer": "JDK contains the JRE along with development tools"
+    },
+    {
+        "id": "04",
+        "question": "What is the use of the keyword 'final' in Java?",
+        "options": [
+            "It is used to declare a variable as constant",
+            "It is used to declare a class as final",
+            "It is used to declare a method as final",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "id": "05",
+        "question": "What is an interface in Java?",
+        "options": [
+            "An interface is a class with only abstract methods",
+            "An interface is a class with only concrete methods",
+            "An interface is a class with both abstract and concrete methods",
+            "None of the above"
+        ],
+        "answer": "An interface is a class with only abstract methods"
+    },
+    {
+        "id": "06",
+        "question": "What is the difference between method overloading and method overriding?",
+        "options": [
+            "Method overloading is done at compile time while method overriding is done at runtime",
+            "Method overriding is done at compile time while method overloading is done at runtime",
+            "Method overloading involves creating a new method with the same name but different parameters in the same class or subclass",
+            "Method overriding involves creating a new method with the same name and parameters in the same class or subclass"
+        ],
+        "answer": "Method overloading involves creating a new method with the same name but different parameters in the same class or subclass"
+    },
+    {
+        "id": "07",
+        "question": "What is the purpose of the 'static' keyword in Java?",
+        "options": [
+            "To define a constant variable",
+            "To create a new instance of a class",
+            "To declare a method that belongs to the class rather than to an instance of the class",
+            "None of the above"
+        ],
+        "answer": "To declare a method that belongs to the class rather than to an instance of the class"
+    },
+    {
+        "id": "08",
+        "question": "What is a constructor in Java?",
+        "options": [
+            "A method that is called automatically when an object of a class is created",
+            "A method that is used to destroy an object of a class",
+            "A method that is used to create a new instance of a class",
+            "None of the above"
+        ],
+        "answer": "A method that is called automatically when an object of a class"
+    }
+]

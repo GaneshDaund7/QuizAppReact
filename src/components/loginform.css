@@ -162,3 +162,8 @@ input:focus {
         /* align-items: center; */
     }
 }
+img, svg {
+    vertical-align: middle;
+    width: 600px;
+    height: 500px;
+}
